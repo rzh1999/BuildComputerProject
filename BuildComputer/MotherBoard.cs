@@ -22,6 +22,15 @@ namespace BuildComputer
             Storage = storage;
             Graphics = graphics;
         }
+
+        public void InstallApplication(Applications applications)
+        {
+            Storage.applicationsInHardDrive.Add(applications);           
+            if (TemporaryMemory.totalGigabytes > applications.requiredRam)
+            {
+
+            }
+        }
     }
 
 }
