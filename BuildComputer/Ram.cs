@@ -10,5 +10,11 @@ namespace BuildComputer
     {
         public double totalGigabytes;
         public string brand;
+
+        public Ram(double totalGigabytes, string brand)
+        {
+            this.totalGigabytes = totalGigabytes;
+            this.brand = brand;
+        }
     }
 }

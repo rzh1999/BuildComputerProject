@@ -10,5 +10,11 @@ namespace BuildComputer
     {
         public string manufactuer;
         public string name;
+
+        public Cpu(string manufactuer, string name)
+        {
+            this.manufactuer = manufactuer;
+            this.name = name;
+        }
     }
 }

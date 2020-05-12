@@ -10,5 +10,11 @@ namespace BuildComputer
     {
         public string manufactuer;
         public double effectiveMemory;
+
+        public Gpu(string manufactuer, double effectiveMemory)
+        {
+            this.manufactuer = manufactuer;
+            this.effectiveMemory = effectiveMemory;
+        }
     }
 }

@@ -10,5 +10,11 @@ namespace BuildComputer
     {
         public double totalStorage;
         public double availableStorage;
+
+        public HardDrive(double totalStorage, double availableStorage)
+        {
+            this.totalStorage = totalStorage;
+            this.availableStorage = availableStorage;
+        }
     }
 }

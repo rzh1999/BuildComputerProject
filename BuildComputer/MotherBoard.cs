@@ -13,5 +13,15 @@ namespace BuildComputer
         Ram TemporaryMemory;
         HardDrive Storage;
         Gpu Graphics;
+
+        public MotherBoard(string manufactuer, Cpu processor, Ram temporaryMemory, HardDrive storage, Gpu graphics)
+        {
+            this.manufactuer = manufactuer;
+            Processor = processor;
+            TemporaryMemory = temporaryMemory;
+            Storage = storage;
+            Graphics = graphics;
+        }
     }
+
 }
