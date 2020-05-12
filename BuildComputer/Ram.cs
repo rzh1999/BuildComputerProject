@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class Ram
+    public class Ram
     {
+        public double totalGigabytes;
+        public string brand;
     }
 }

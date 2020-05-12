@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class Gpu
+    public class Gpu
     {
+        public string manufactuer;
+        public double effectiveMemory;
     }
 }

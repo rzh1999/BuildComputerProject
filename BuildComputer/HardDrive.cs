@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class HardDrive
+    public class HardDrive
     {
+        public double totalStorage;
+        public double availableStorage;
     }
 }

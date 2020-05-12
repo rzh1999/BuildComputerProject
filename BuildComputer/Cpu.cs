@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class Cpu
+    public class Cpu
     {
+        public string manufactuer;
+        public string name;
     }
 }

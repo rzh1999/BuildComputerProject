@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class MotherBoard
+    public class MotherBoard
     {
+        public string manufactuer;
+        Cpu Processor;
+        Ram TemporaryMemory;
+        HardDrive Storage;
+        Gpu Graphics;
     }
 }

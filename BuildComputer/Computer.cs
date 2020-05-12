@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class Computer
+    public class Computer
     {
     }
 }
