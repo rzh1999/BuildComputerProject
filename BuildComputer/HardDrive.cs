@@ -10,6 +10,7 @@ namespace BuildComputer
     {
         public double totalStorage;
         public double availableStorage;
+        public List<Applications> applicationsInHardDrive;
 
         public HardDrive(double totalStorage, double availableStorage)
         {
