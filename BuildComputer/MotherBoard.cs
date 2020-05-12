@@ -14,7 +14,7 @@ namespace BuildComputer
         HardDrive Storage;
         Gpu Graphics;
 
-        public MotherBoard(string manufactuer, Cpu processor, Ram temporaryMemory, HardDrive storage, Gpu graphics)
+        public MotherBoard(string manufactuer,  Cpu processor,  Ram temporaryMemory, HardDrive storage, Gpu graphics)
         {
             this.manufactuer = manufactuer;
             Processor = processor;
@@ -25,10 +25,10 @@ namespace BuildComputer
 
         public void InstallApplication(Applications applications)
         {
-            Storage.applicationsInHardDrive.Add(applications);           
-            if (TemporaryMemory.totalGigabytes > applications.requiredRam)
+            
+            if (TemporaryMemory.totalGigabytes > applications.requiredRam && Storage.availableStorage > applications.requiredStorage)
             {
-
+                Storage.applicationsInHardDrive.Add(applications);
             }
         }
     }
