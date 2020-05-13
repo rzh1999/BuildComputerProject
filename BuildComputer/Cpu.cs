@@ -22,6 +22,7 @@ namespace BuildComputer
         {
 
             hardDrive.applicationsInHardDrive.Add(app);
+            hardDrive.totalStorage -= app.requiredStorage;
 
         }
 

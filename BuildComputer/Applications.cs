@@ -25,7 +25,7 @@ namespace BuildComputer
         //    //requiredRam = 4.0; //in gigabytes
         //    //requiredStorage = 0.512; //in gigabytes
         //}
-
+      
        public Applications()
         {
 
