@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace BuildComputer
 {
-    class TextEditor
+    class TextEditor : Applications
     {
+        public TextEditor(string applicationName, string applicationType, double requiredRam, double requiredStorage)
+        {
+            this.applicationName = applicationName;
+            this.applicationType = applicationType;
+            this.requiredRam = requiredRam;
+            this.requiredStorage = requiredStorage;
+        }
+
     }
 }
+

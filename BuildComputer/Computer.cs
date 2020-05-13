@@ -35,6 +35,12 @@ namespace BuildComputer
             {
                 cpu.ProcessInstall(game,hardDrive,ram);
             }
+            TextEditor textEditor = new TextEditor("notepad", "editor", 1.0, 20.5);
+            bool itsOk = cpu.CheckRequirements(game, hardDrive, ram);
+            if (itsOk)
+            {
+                cpu.ProcessInstall(textEditor, hardDrive, ram);
+            }
         }
         //Games game = new Games("Call of Duty");
 

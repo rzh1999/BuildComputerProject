@@ -23,6 +23,7 @@ namespace BuildComputer
 
             hardDrive.applicationsInHardDrive.Add(app);
             hardDrive.totalStorage -= app.requiredStorage;
+            //Ram only exists if application is running si I dont know why its here
 
         }
 
